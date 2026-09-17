@@ -1,13 +1,14 @@
 <template>
-  <div class="dashboard-container">
-    首页
+  <div class="contact-container">
+    联系我
   </div>
 </template>
+
 <script setup lang="js">
 
 
 onMounted(() => {
-  console.log('dashboard onMounted');
+  console.log('contact onMounted');
 });
 </script>
 

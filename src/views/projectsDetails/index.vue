@@ -1,14 +1,15 @@
 <template>
-  <div class="dashboard-container">
-    首页
+  <div class="projects-details-container">
+    作品详情
   </div>
 </template>
 <script setup lang="js">
 
 
 onMounted(() => {
-  console.log('dashboard onMounted');
+  console.log('projects details onMounted');
 });
+
 </script>
 
 <style lang="less" scoped>

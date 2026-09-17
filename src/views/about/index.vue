@@ -1,14 +1,14 @@
 <template>
-  <div class="dashboard-container">
-    首页
+  <div class="about-container">
+    关于我
   </div>
 </template>
 <script setup lang="js">
 
-
 onMounted(() => {
-  console.log('dashboard onMounted');
+  console.log('about onMounted');
 });
+
 </script>
 
 <style lang="less" scoped>
