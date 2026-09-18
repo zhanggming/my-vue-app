@@ -13,5 +13,9 @@
 <script setup lang="js">
 import HeaderApp from './header.vue'
 
-import './index.less'
+
 </script>
+<style lang="less" scoped>
+@import url('./index.less');
+</style>
+
