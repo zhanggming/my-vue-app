@@ -35,7 +35,7 @@ onMounted(() => {
 }
 
 .header-container {
-  padding: 0 300px;
+  padding: 0 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;

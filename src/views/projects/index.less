@@ -1,3 +1,42 @@
-.projects-container{
-  
+.projects-container {
+  width: 1320px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 12px 8px; /* 行间距 12px，列间距 16px */
+  // box-sizing: border-box;
+  // border: 1px solid red;
+  .project-item {
+    width: 424px;
+    height: 506px;
+    .project-icon {
+      height: 248px;
+      .project-img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+    }
+    .project-content {
+      padding: 32px;
+      .project-desc {
+        display: inline-block;
+        color: #556070;
+        white-space: wrap;
+        word-wrap: break-word;
+        vertical-align: top;
+        margin-bottom: 10px;
+      }
+      .project-button {
+        width: 173px;
+        height: 48px;
+      }
+    }
+  }
+  .project-item:nth-child(2n-2) {
+    //  margin: 0 12px;
+  }
 }
