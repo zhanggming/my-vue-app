@@ -1,4 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
+}
+.say-hello {
+  width: 126px;
+  height: 48px;
+  background: #a53dff;
+  color: #ffffff;
 }
