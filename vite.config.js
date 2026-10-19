@@ -47,6 +47,11 @@ export default defineConfig({
         target: 'http://localhost:3600',
         rewrite: (path) => path.replace(new RegExp("^" + '/api'), ""),
       },
+      '/aChat': {
+        changeOrigin: true,
+        target: 'http://localhost:8000',
+        rewrite: (path) => path.replace(new RegExp("^" + '/aChat'), ""),
+      },
     },
   },
 })

@@ -39,6 +39,12 @@ const router = createRouter({
           title: '作品详情',
           component: () => import("@/views/projects/index.vue"),
         },
+        {
+          path: '/chat',
+          // name: 'projects',
+          title: 'chat',
+          component: () => import("@/views/chat/index.vue"),
+        },
       ],
     },
   ],
