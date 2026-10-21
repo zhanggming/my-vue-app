@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <div class="container">
+    <div class="layout-container">
       <div class="header">
         <HeaderApp />
       </div>
